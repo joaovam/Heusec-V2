@@ -36,7 +36,7 @@ public class Spark {
 				 HttpClient client = HttpClient.newHttpClient();
 			        HttpRequest req = HttpRequest.newBuilder()
 			                .uri(URI.create(url)).header("Content-Type","application/json")
-			                .header("Authorization","Bearer KFMY5hDLlxtxNlL9mzGh/1TLkoe/xx2KkmFb5taAyrOtSOaCuRutrHc7G0+aaePmLshfT5XlEt6jBaWCx+8cEA==")
+			                .header("Authorization","X")
 			                .header("Accept","application/json")
 			                .POST(HttpRequest.BodyPublishers.ofString(request.body()))
 			                .build();
