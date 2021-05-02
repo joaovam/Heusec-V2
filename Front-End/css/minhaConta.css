@@ -1,0 +1,145 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #b24d53 !important;
+  text-decoration: none;
+  transition: all .5s ease;
+}
+/* Fim estilos gerais */
+
+/* Header */
+.header {
+  background: #040505;
+  border-bottom: 1px solid #b24d53;
+}
+
+.header .navbar {
+  background: #040505 !important;
+  font-weight: bold;
+  padding: 15px 0px;
+  border-bottom: none;
+}
+
+.header .container {
+  border-bottom: none;
+}
+
+.header .navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 20px;
+  transition: all .5s ease;
+}
+
+.header .navbar-dark .navbar-nav .active .nav-link {
+  color: #b24d53;
+}
+
+.header .navbar img {
+  width: 100px;
+}
+
+.header_area {
+  padding: 20px;
+}
+
+.header .dropdown-menu {
+  border-radius: 0px;
+  border: 1px solid #b24d53;
+}
+
+.header .dropdown-menu .dropdown-item {
+  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 20px;
+}
+/* Header Final */
+
+
+/* Main */
+.body {
+  background-color: #131212;
+}
+
+.tituloFav {
+  color: #ffffff;
+}
+
+.main {
+  padding-top: 20px;
+}
+
+ul .list-group-item {
+  cursor: pointer;
+}
+
+.cards {
+  padding-bottom: 20px;
+  display: flex;
+
+  justify-content: center;
+}
+.card {
+  color: #ffffff;
+}
+.card-title {
+  justify-content: center;
+}
+.adicionaCard {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.padrao {
+  height: 178.96px;
+}
+
+.list-group-item {
+  background-color: #343a40;
+  color: white;
+}
+
+.card-informacoes {
+  color:black;
+}
+
+.card {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  margin-bottom: 5px;
+  border: none;
+}
+
+.card-informacoes h5 {
+  font-size: 18px;
+}
+
+.btn-danger {
+  color: #ffffff;
+  background-color: #b24d53;
+  border-color: #b24d53;
+}
+
+.tituloFav {
+  padding: 10px;
+}
+/* Fim Main */

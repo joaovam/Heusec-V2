@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(45deg, #040505, #b24d53);
+}
+
+#container {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #131212;
+    box-shadow: 0 15px 30px #040505;
+}
+
+#container .content {
+    max-width: 600px;
+    text-align: center;
+}
+
+#container .content h3 {
+    font-size: 32px;
+    color: #FFFFFF !important;
+}
+
+#container .content label {
+    position: relative;
+    margin-top: 20px;
+    color: #111;
+    display: inline-block;
+}
+
+.form-group label {
+    color: #b24d53 !important;
+}
+
+.form-group .btn {
+    background-color: #b24d53;
+    border-color: #b24d53;
+}
+
+/* Modal Registrar */
+.modal-content {
+    background-color: #131212 !important;
+    box-shadow: 0 15px 30px #040505;
+}
+
+.modal-content .modal-title {
+    color: #b24d53;
+    font-weight: bold;
+}
+
+.modal-header {
+    border-bottom: 1px solid #b24d53;
+}
+
+.modal-footer {
+    border-top: 1px solid #b24d53;
+}
+
+.modal-content .btn-danger {
+    background-color: #b24d53;
+    border-color: #b24d53;
+}
+
+.close {
+    color: #FFFFFF;
+    text-shadow: none;
+}
+/* Fim Modal Registrar */

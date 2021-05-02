@@ -1,0 +1,16 @@
+.body{
+    background: #cecece;
+}
+
+.logo{
+    width: 150px;
+    height: 50px
+}
+
+.main{
+    padding-top: 80px;
+
+}
+.card-deck{
+    position: center;
+}

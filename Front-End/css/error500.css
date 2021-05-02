@@ -1,0 +1,41 @@
+@import "sobre.css";
+
+.main p.error-500 {
+  font-size: 80px;
+}
+
+.error {
+  padding: 4em;
+  height: 60vh;
+  margin: 5em;
+}
+
+.error-text {}
+
+p.error-500 {
+  text-shadow: 1px 1px 8px #ff0000;
+  animation: shadowRotation 2s infinite;
+}
+
+
+@keyframes shadowRotation {
+  0% {
+    text-shadow: 1px 1px 8px #ff0000;
+  }
+
+  25% {
+    text-shadow: 3px -2px 8px #ff0000;
+  }
+
+  50% {
+    text-shadow: 5px 0px 8px #ff0000;
+  }
+
+  75% {
+    text-shadow: 3px -2px 8px #ff0000;
+  }
+
+  100% {
+    text-shadow: 1px 1px 8px #ff0000;
+  }
+}
